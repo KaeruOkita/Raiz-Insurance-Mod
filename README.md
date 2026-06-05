@@ -50,4 +50,4 @@ Projeto estável para uso em produção.
 
 ## Autor
 
-Raiz PvE
+Kaeru
