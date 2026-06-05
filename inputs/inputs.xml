@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<inputs>
+		<actions>
+			<input name="UAOpenRaizInsuranceMenu" loc="Abrir Menu de Seguros Raiz" />
+			<input name="UAOpenRaizInsuranceAdminMenu" loc="Abrir Menu Admin Raiz" />
+		</actions>
+
+		<sorting name="RaizInsuranceMod" loc="Raiz Insurance Mod">
+			<input name="UAOpenRaizInsuranceMenu" />
+			<input name="UAOpenRaizInsuranceAdminMenu" />
+		</sorting>
+	</inputs>
+
+	<preset>
+		<input name="UAOpenRaizInsuranceMenu">
+			<btn name="kI" />
+		</input>
+
+		<input name="UAOpenRaizInsuranceAdminMenu">
+			<btn name="kO" />
+		</input>
+	</preset>
+</root>

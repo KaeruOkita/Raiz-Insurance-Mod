@@ -1,0 +1,108 @@
+FrameWidgetClass RaizInsuranceMenuRoot
+{
+	ignorepointer 0
+	visible 1
+	color 0 0 0 0.75
+	position 0 0
+	size 1 1
+	halign left_ref
+	valign top_ref
+
+	{
+		PanelWidgetClass MainPanel
+		{
+			ignorepointer 0
+			visible 1
+			color 0.05 0.05 0.05 0.95
+			position 0.20 0.15
+			size 0.60 0.70
+			halign left_ref
+			valign top_ref
+
+			{
+				TextWidgetClass TitleText
+				{
+					ignorepointer 1
+					visible 1
+					text "RAIZ INSURANCE"
+					color 1 0.45 0.05 1
+					position 0.05 0.04
+					size 0.90 0.05
+					halign center_ref
+					valign top_ref
+					font "gui/fonts/sdf_MetronBook14"
+				}
+
+				TextWidgetClass SubtitleText
+				{
+					ignorepointer 1
+					visible 1
+					text "MEUS VEÍCULOS SEGURADOS"
+					color 1 1 1 1
+					position 0.05 0.10
+					size 0.90 0.04
+					halign center_ref
+					valign top_ref
+					font "gui/fonts/sdf_MetronBook14"
+				}
+
+				TextListboxWidgetClass InsuranceList
+				{
+					ignorepointer 0
+					visible 1
+					color 0.12 0.12 0.12 1
+					position 0.05 0.16
+					size 0.90 0.54
+					halign left_ref
+					valign top_ref
+				}
+
+				TextWidgetClass StatusText
+				{
+					ignorepointer 1
+					visible 1
+					text "Status"
+					color 1 1 1 1
+					position 0.05 0.72
+					size 0.90 0.06
+					halign left_ref
+					valign top_ref
+					font "gui/fonts/sdf_MetronBook14"
+				}
+
+				ButtonWidgetClass RefreshButton
+				{
+					ignorepointer 0
+					visible 1
+					position 0.05 0.82
+					size 0.28 0.08
+					halign left_ref
+					valign top_ref
+					text "ATUALIZAR"
+				}
+
+				ButtonWidgetClass RestoreButton
+				{
+					ignorepointer 0
+					visible 1
+					position 0.36 0.82
+					size 0.28 0.08
+					halign left_ref
+					valign top_ref
+					text "RESTAURAR"
+				}
+
+				ButtonWidgetClass CloseButton
+				{
+					ignorepointer 0
+					visible 1
+					position 0.67 0.82
+					size 0.28 0.08
+					halign left_ref
+					valign top_ref
+					text "FECHAR"
+				}
+			}
+		}
+	}
+}
